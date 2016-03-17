@@ -1,0 +1,79 @@
+*{
+	text-decoration: none;
+}
+body
+{
+	font-family: 'Alegreya', serif;
+	background-color: #C6FFFA;
+}
+
+.retraso{
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+}
+.retraso2{
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+}
+.retraso3{
+	animation-delay: 1.3s;
+	-webkit-animation-delay: 1.3s;
+	-moz-animation-delay: 1.3s;
+}
+.quitar_float{
+	float: none;
+}
+.espacio_arriba{
+	margin-top: 100px;
+}
+img{
+	max-width: 100%;
+}
+h1 { color: #FF6171; 
+	font-family: 'Slackey', cursive;
+	font-size: 4em; 
+	font-weight: normal; 
+	line-height: 48px;  
+	text-align: center; 
+	margin-bottom: 20px; }
+.espacio-derecha{
+	margin-right: 1em;
+}
+h2{
+	color: black;
+}
+a{
+	text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.espacio-abajo{
+	margin-bottom: 1em;
+}
+.animado{
+	background-color: #9DE89D;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes example {
+    0%   {background-color: #9DE89D;}
+    33%  {background-color: #BBE8C5;}
+    67%  {background-color: #0DA390;}
+    100% {background-color: #9DE89D;}
+}
+@keyframes example {
+    0%   {background-color: #9DE89D;}
+    33%  {background-color: #BBE8C5;}
+    67%  {background-color: #0DA390;}
+    100% {background-color: #9DE89D;}
+}
